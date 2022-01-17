@@ -1,0 +1,33 @@
+body {
+    background: radial-gradient(pink, lightpink, white);
+    text-align: center;
+}
+
+#player1_input, #player2_input {
+    border-radius: 10px;
+    border: 3px dashed magenta;
+}
+
+h1 {
+    border: 1px solid white;
+}
+
+#add:hover {
+    background:radial-gradient(#880808, #AA4A44, #CC5500, #E97451, #F88379);
+    height: 40px;
+    width: 100px;
+}
+
+#add {
+    background: linear-gradient(#880808, #AA4A44, #CC5500, #E97451, #F88379);
+    border: 3px white dotted;
+}
+
+#output {
+    border-radius:10px;
+    border-top: 10px solid #fd0094;
+    border-bottom: 10px solid #fd0094;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}

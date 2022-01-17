@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Quiz | 2 player</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Bubblegum Maths ICON.ico">
+        <script src="game_page.js"></script>
+    </head>
+    <body>
+    <br><br>
+        <div class="container">
+            <center>
+                <h1 style="color: rgb(255, 255, 255);">Math Quiz!</h1>
+                <br>
+                <h4 id="player1_name"></h4> <span id="player1_score"></span>
+                <br>
+                 <h4 id="player2_name"></h4> <span id="player2_score"></span>
+                <br><br>
+                <img src="Bubblegum Maths LOGO.png" id="logo">
+                 <h3 id="player_question">Question Turn - </h3>
+                 <h3 id="player_answer">Answer Turn - </h3>
+                 <div id="output" class="col-lg-6" style="background-color: rgb(241, 178, 219);"><h4 style="text-align: center;" id="question"><b></b></h2>
+                 <br>
+                 <h4>Answer: </h4><span id="answer"><input type="text" id="player_answer_input" placeholder="Answer" class="form-control"></span>
+                 <br>
+                 <button type="submit" class="btn btn-success" id="check" onclick="check()">Check</button>
+                 </div>
+                <br>
+                <br>
+                <label>Number 1: <b style="color: rgb(255, 0, 149)">Enter a number</b></label>
+                <input type="number" id="number1" class="form-control" placeholder="Number 1">
+                <br><br>
+                <label>Number 2: <b style="color: rgb(255, 0, 149)">Enter a number</b></label>
+                <input type="number" id="number2" class="form-control" placeholder="Number 2">
+                <br>
+                <button onclick="send()"  style="width: 30%; height: 7%;  background: linear-gradient(magenta, pink, lightpink, white)">Send</button>
+                <br><br><br>
+            </center>
+        </div>
+    </body>
+</html>
